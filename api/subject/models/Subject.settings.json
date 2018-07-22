@@ -1,0 +1,20 @@
+{
+  "connection": "default",
+  "collectionName": "subject",
+  "info": {
+    "name": "subject",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "Name": {
+      "type": "string"
+    },
+    "grades": {
+      "collection": "grade",
+      "via": "subject"
+    }
+  }
+}

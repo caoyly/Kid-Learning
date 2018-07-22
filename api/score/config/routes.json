@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/score",
+      "handler": "Score.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/score/:_id",
+      "handler": "Score.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/score",
+      "handler": "Score.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/score/:_id",
+      "handler": "Score.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/score/:_id",
+      "handler": "Score.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

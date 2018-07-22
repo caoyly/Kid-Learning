@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "grade",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "subject": {
+      "model": "subject",
+      "via": "grades"
+    },
+    "parts": {
+      "collection": "part",
+      "via": "grade"
+    },
+    "users": {
+      "collection": "user",
+      "via": "grade",
+      "plugin": "users-permissions"
+    }
+  }
+}

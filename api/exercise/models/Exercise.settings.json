@@ -1,0 +1,42 @@
+{
+  "connection": "default",
+  "collectionName": "exercise",
+  "info": {
+    "name": "exercise",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "timeLimitation": {
+      "type": "integer"
+    },
+    "lesson": {
+      "model": "lesson",
+      "via": "exercises"
+    },
+    "chapter": {
+      "model": "chapter",
+      "via": "exercises"
+    },
+    "type": {
+      "type": "enumeration",
+      "enum": [
+        "chapter",
+        "lesson"
+      ],
+      "required": true
+    },
+    "exerciseQuestions": {
+      "type": "json"
+    },
+    "title": {
+      "type": "string"
+    },
+    "scores": {
+      "collection": "score",
+      "via": "exercise"
+    }
+  }
+}

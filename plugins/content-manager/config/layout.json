@@ -1,0 +1,224 @@
+{
+  "subject": {
+    "attributes": {
+      "Name": {
+        "appearance": ""
+      },
+      "Class": {
+        "appearance": ""
+      }
+    }
+  },
+  "grade": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "part": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "chapter": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "lesson": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "introduction": {
+        "appearance": "WYSIWYG"
+      },
+      "brief": {
+        "appearance": "WYSIWYG"
+      },
+      "page": {
+        "appearance": ""
+      }
+    }
+  },
+  "TheoryItem": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "Exercise": {
+    "attributes": {
+      "timeLimitation": {
+        "appearance": ""
+      }
+    }
+  },
+  "ExerciseQuestion": {
+    "attributes": {
+      "question": {
+        "appearance": ""
+      },
+      "answer": {
+        "appearance": ""
+      }
+    }
+  },
+  "ExerciseAnswerSheet": {
+    "attributes": {
+      "point": {
+        "appearance": ""
+      }
+    }
+  },
+  "School": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      }
+    }
+  },
+  "exerciseAnswer": {
+    "attributes": {
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "note": {
+    "attributes": {
+      "Content": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "Mindmap": {
+    "attributes": {
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "Bookmark": {
+    "attributes": {
+      "position": {
+        "appearance": ""
+      }
+    }
+  },
+  "question": {
+    "attributes": {
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "Answer": {
+    "attributes": {
+      "content": {
+        "appearance": ""
+      },
+      "isChecked": {
+        "appearance": ""
+      }
+    }
+  },
+  "userconfirmation": {
+    "attributes": {
+      "content": {
+        "appearance": "WYSIWYG"
+      }
+    }
+  },
+  "notification": {
+    "attributes": {
+      "userQuery": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      },
+      "link": {
+        "appearance": ""
+      }
+    }
+  },
+  "exercise": {
+    "attributes": {
+      "title": {
+        "appearance": ""
+      },
+      "exerciseQuestions": {
+        "appearance": ""
+      }
+    }
+  },
+  "exercisequestion": {
+    "attributes": {
+      "answer": {
+        "appearance": "WYSIWYG"
+      },
+      "question": {
+        "appearance": "WYSIWYG"
+      },
+      "answers": {
+        "appearance": ""
+      }
+    }
+  },
+  "mileStone": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "timeline": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "year": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "mindMap": {
+    "attributes": {
+      "name": {
+        "appearance": ""
+      },
+      "content": {
+        "appearance": ""
+      }
+    }
+  },
+  "score": {
+    "attributes": {
+      "point": {
+        "appearance": ""
+      }
+    }
+  }
+}

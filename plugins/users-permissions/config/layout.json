@@ -1,0 +1,18 @@
+{
+  "user": {
+    "attributes": {
+      "address": {
+        "appearance": ""
+      },
+      "name": {
+        "appearance": ""
+      },
+      "notes": {
+        "appearance": ""
+      },
+      "mindMaps": {
+        "appearance": ""
+      }
+    }
+  }
+}

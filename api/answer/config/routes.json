@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/answer",
+      "handler": "Answer.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/answer/:_id",
+      "handler": "Answer.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/answer",
+      "handler": "Answer.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/answer/:_id",
+      "handler": "Answer.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/answer/:_id",
+      "handler": "Answer.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

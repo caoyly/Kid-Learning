@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/chapter",
+      "handler": "Chapter.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/chapter/:_id",
+      "handler": "Chapter.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/chapter",
+      "handler": "Chapter.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/chapter/:_id",
+      "handler": "Chapter.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/chapter/:_id",
+      "handler": "Chapter.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

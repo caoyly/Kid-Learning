@@ -1,0 +1,24 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "part",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "grade": {
+      "model": "grade",
+      "via": "parts"
+    },
+    "chapters": {
+      "collection": "chapter",
+      "via": "part"
+    }
+  }
+}

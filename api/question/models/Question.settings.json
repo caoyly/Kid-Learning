@@ -1,0 +1,30 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "question",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "content": {
+      "type": "string",
+      "required": true
+    },
+    "lesson": {
+      "model": "lesson",
+      "via": "questions"
+    },
+    "user": {
+      "model": "user",
+      "via": "questions",
+      "plugin": "users-permissions"
+    },
+    "answers": {
+      "collection": "answer",
+      "via": "question"
+    }
+  }
+}

@@ -1,0 +1,83 @@
+.containerFluid {
+  /* stylelint-disable */
+  padding: 18px 30px !important;
+  overflow: hidden;
+
+  h1 {
+    font-size: 2.4rem;
+    font-weight: 600;
+    margin-top: 0.7rem;
+    margin-bottom: 1px;
+    text-transform: capitalize;
+  }
+}
+
+.buttonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 8px;
+  margin-right: -18px;
+}
+
+.resetBtn {
+  min-width: 10rem;
+  color: #f64d0a;
+  border: 0.1rem solid #f64d0a;
+  position: relative;
+  border-radius: 3px;
+  overflow: hidden;
+  height: 3rem;
+  margin-right: 1.8rem;
+  cursor: pointer;
+  font-family: Lato;
+}
+
+a {
+  text-decoration: none;
+}
+
+.saveBtn {
+  font-weight: 500;
+  min-width: 15rem;
+  background: linear-gradient(315deg, #0097f6 0%, #005eea 100%);
+  color: white;
+  height: 3rem;
+  position: relative;
+  border-radius: 0.3rem;
+  margin-right: 1.8rem;
+  cursor: pointer;
+  font-family: Lato;
+  text-align: center;
+}
+
+.sectionContainer {
+  background: #ffffff;
+  padding: 22px 10px;
+  border-radius: 2px;
+  box-shadow: 0 2px 4px #e3e9f3;
+}
+
+.contentContainer {
+  width: 100%;
+  padding: 0 15px;
+}
+
+.closeBtn {
+  float: right;
+  margin-top: -30px;
+}
+
+.answersList {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.hightlight {
+  color: red;
+}
+
+.buttonWrapperCenter {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 20px;
+}

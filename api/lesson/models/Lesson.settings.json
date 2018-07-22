@@ -1,0 +1,38 @@
+{
+  "connection": "default",
+  "collectionName": "lesson",
+  "info": {
+    "name": "lesson",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "introduction": {
+      "type": "text"
+    },
+    "brief": {
+      "type": "text"
+    },
+    "chapter": {
+      "model": "chapter",
+      "via": "lessons"
+    },
+    "exercises": {
+      "collection": "exercise",
+      "via": "lesson"
+    },
+    "questions": {
+      "collection": "question",
+      "via": "lesson"
+    },
+    "page": {
+      "type": "integer"
+    }
+  }
+}

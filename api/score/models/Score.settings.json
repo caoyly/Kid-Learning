@@ -1,0 +1,26 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "score",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "user": {
+      "model": "user",
+      "via": "scores",
+      "plugin": "users-permissions"
+    },
+    "exercise": {
+      "model": "exercise",
+      "via": "scores"
+    },
+    "point": {
+      "type": "decimal",
+      "required": true
+    }
+  }
+}

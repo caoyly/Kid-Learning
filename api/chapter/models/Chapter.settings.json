@@ -1,0 +1,29 @@
+{
+  "connection": "default",
+  "collectionName": "",
+  "info": {
+    "name": "chapter",
+    "description": ""
+  },
+  "options": {
+    "timestamps": true
+  },
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "part": {
+      "model": "part",
+      "via": "chapters"
+    },
+    "lessons": {
+      "collection": "lesson",
+      "via": "chapter"
+    },
+    "exercises": {
+      "collection": "exercise",
+      "via": "chapter"
+    }
+  }
+}

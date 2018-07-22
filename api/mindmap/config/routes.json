@@ -1,0 +1,44 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/mindmap",
+      "handler": "Mindmap.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/mindmap/:_id",
+      "handler": "Mindmap.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/mindmap",
+      "handler": "Mindmap.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/mindmap/:_id",
+      "handler": "Mindmap.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/mindmap/:_id",
+      "handler": "Mindmap.destroy",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
